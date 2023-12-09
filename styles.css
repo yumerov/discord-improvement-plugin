@@ -1,0 +1,9 @@
+[class*="groupStart"]:has([class*="blockedSystemMessage"]),
+[class*="blockedSystemMessage"],
+div[class*="groupStart"]:has([class*="messageContent-"] a[href*="https://vm.tiktok.com"]),
+div[class*="groupStart"]:has([class*="messageContent-"] a[href*="https://www.tiktok.com"]),
+div[class*="groupStart"]:has([class*="messageContent-"] a[href*="https://www.instagram.com"]),
+li[id*="chat-messages"]:has([class*="messageContent-"] a[href*="https://www.instagram.com"]),
+li[id*="chat-messages"]:has([class*="repliedTextPlaceholder"][class*="reply-from-blocked"]) {
+    display: none;
+}

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Discord Improvement Plugin",
+  "description": "Removed annoying UI elements to improve the UX",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://discord.com/channels/*"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "scripts.js"
+      ]
+    }
+  ]
+}
